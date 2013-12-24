@@ -1,0 +1,23 @@
+<%= render 'layouts/innerpage' %>
+
+<h1>Listing blogs</h1>
+
+<% @blogs.each do |blog| %>
+
+  <div class="post-area">
+    <div style="font-size:25pt; width:80%;position: relative; margin-top: 10px;"><%= blog.title %></div>
+    <div style="float:right; width:20%; margin-top: -10px; position: relative;"><%= blog.author %></div><br/>
+    <%= blog.content %></br></br>
+    <p>
+    <%= link_to 'Show', blog, :class => "btn btn-success btn-xs" %>
+    <%= link_to 'Edit', edit_blog_path(blog), :class => "btn btn-success btn-xs" %>
+    <%= link_to 'Destroy', blog, :class => "btn btn-success btn-xs",  method: :delete, data: { confirm: 'Are you sure?'} %>
+    </p>
+  </div>
+
+<% end %>
+
+
+<br />
+
+<%= link_to 'New Blog', new_blog_path,  class: "btn btn-success btn-large" %>

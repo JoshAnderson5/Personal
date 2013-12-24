@@ -1,0 +1,29 @@
+<%= render 'layouts/innerpage' %>
+
+<p id="notice"><%= notice %></p>
+
+<div class="post-area">
+<p>
+  <h1><%= @blog.title %></h1>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @blog.author %>
+</p>
+
+<p>
+  <b>Date Added:</b>
+  <%= @blog.created_at %>
+</p>
+ 
+<p>
+  <b>Content:</b>
+  <%= @blog.content %>
+</p>
+
+
+<%= link_to 'Edit', edit_blog_path(@blog) %> |
+<%= link_to 'Back', blogs_path %>
+
+</div>

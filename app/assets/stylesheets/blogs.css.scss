@@ -1,0 +1,31 @@
+// Place all the styles related to the blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.hero-wrap {
+	/*background: #DCDDE1 url('http://3su01w3kzgd171xok11pzjzn1i.wpengine.netdna-cdn.com/wp-content/uploads/2013/09/bg-blog-hero.jpg') top center no-repeat;*/
+	background: #DCDDE1 url(http://blog.statuspage.io/assets/masthead-218efbb546d75f5ea45b1c663bde6b8e.png) top center no-repeat;
+	height: 60px;
+	color: white;
+	left:0;
+	right:0;
+	top:0;
+	-webkit-box-shadow: -5px -5px #888;
+/*box-shadow: -5px 5px 5px -5px #302B2B;*/
+box-shadow: inset -1px -10px 5px -10px #302B2B;
+}
+
+.post-area {
+	width: auto;
+height: auto;
+background: white; 
+position: relative;
+padding: 10px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.15);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,73 @@
+// Place all the styles related to the homepage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+a {
+	color:white;
+	text-shadow: 0px 1px rgba(0, 0, 0, 0.34);
+}
+
+.top-green {
+height: 7px;
+/*background-color: #98c62c;
+background-image: -moz-linear-gradient(top, #ffffff, #74a625);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#74a625));
+background-image: -webkit-linear-gradient(top, #ffffff, #74a625);
+background-image: -o-linear-gradient(top, #ffffff, #74a625);
+background-image: linear-gradient(to bottom, #74a625, #98c62c);
+background-repeat: repeat-x;
+border: 1px solid #98c62c;
+border-color: #74a625 #74a625 #98c62c;
+border-color: rgba(209, 186, 16, 0) rgba(197, 184, 35, 0.1) rgba(0, 0, 0, 0.25);
+border-bottom-color: #74a625;*/
+position: relative;
+position: absolute;
+left: 0;
+right: 0;
+}
+
+.panning {
+	width: auto; // Span to the full width of container
+	height: 300px;
+	background: url(clouds.jpg);
+}
+
+.front-bg {
+	background-image: url(joshbg4.jpg);
+	height: 680px;
+    background-repeat: no-repeat; 
+    z-index: -999;
+    background-repeat: no-repeat;
+background-size: cover;
+	-webkit-box-shadow: 0px 0px 8px 2px #000000;
+       -moz-box-shadow: 0px 0px 8px 2px #000000;
+            box-shadow: 0px 0px 8px 2px #000000;
+}
+
+.masthead  {
+color: black !important;
+display: inline-block;
+margin: 12px 10px 9px 8px;
+padding: 10px 5px;
+text-decoration: none !important;
+float:left;
+}
+
+.post-thumb {
+width: 340px;
+float: left;
+margin: 20px;
+height: 205px;
+background: white;
+margin-bottom: 30px;
+position: relative;
+padding: 10px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.15);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.15);
+}
