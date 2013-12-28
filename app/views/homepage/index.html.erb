@@ -21,23 +21,23 @@ box-shadow: 0 1px 0 rgba(255,255,255,.1);width: 100%; height:70px; left:0; right
 	                 <span class="nav">
 	                 <%= link_to image_tag("personallogo-name.png", :alt => "JA Logo", :size => "270x60", :style => "float:left; margin-right:50px;margin-top:10px;"), root_path %>
 	                 
-	                 <li class="masthead"><%= link_to "About Me", homepage_aboutme_path, class: ""  %></li>
-	                 <li class="masthead"><%= link_to "Uvalue", homepage_uvalue_path, class: "btn btn-outline-inverse btn-lg"  %></li>
-	                 <li class="masthead"><%= link_to "Technologist Group", homepage_technologistgroup_path, class: "btn btn-outline-inverse btn-lg"  %></li>
-	                 <li class="masthead" ><%= link_to "Active Projects", homepage_projects_path, class: "btn btn-outline-inverse btn-lg"  %></li>
-	                 <li class="masthead" ><%= link_to "Blog", blogs_path, class: "btn btn-outline-inverse btn-lg"  %></li>
-	                 <li class="masthead" ><%= link_to "Contact Me", homepage_contactme_path, class: "btn btn-outline-inverse btn-lg" %></li>
+	                 <li class="masthead"><%= link_to "About Me", homepage_aboutme_path, class: "green-links"  %></li>
+	                 <li class="masthead"><%= link_to "Uvalue", homepage_uvalue_path, class: "green-links"  %></li>
+	                 <li class="masthead"><%= link_to "Technologist Group", homepage_technologistgroup_path, class: "green-links"  %></li>
+	                 <li class="masthead" ><%= link_to "Projects", homepage_projects_path, class: "green-links"  %></li>
+	                 <li class="masthead" ><%= link_to "Blog", blogs_path, class: "green-links"  %></li>
+	                 <li class="masthead" ><%= link_to "Contact Me", homepage_contactme_path, class: "green-links" %></li>
 	                    </span>
 	                 </div>
 	          </ul>
 	          <div style="float:right;margin-right:100px;margin-top:210px; width:500px;">
 	          <h1>Business, Product, & Design</h1>
-	          I'm young and motivated UX and UI designer with great business and design background. Have helped many startups and businesses to improve their products and services. Specialised on Product development, UI Design, UX Design, Interaction Design Graphic Design, business development. More about me from Twitter & latest works from Dribbble .
+	          <h4 style="line-height:25px;">I'm young and motivated technology enthusiast with great business, product, and design background. To date I have worked on my fair share of web based software and enjoy being part of a team where I can bring all my abilities and leadership to the table in order to help move the business forward.</h4>
 	          </div>
-	</div>
+	</div> 
 </div>
 <div class="container">
-		<div class="post-thumb">ddd</div>
-		<div class="post-thumb">ddd</div>
-		<div class="post-thumb">dd</div>
+		<div class="post-thumb-biz"><%= link_to "Business Development", root_path, class: "post-thumb-link" %></div>
+		<div class="post-thumb-product"><%= link_to "Product Development", root_path, class: "post-thumb-link" %></div>
+		<div class="post-thumb-present"><%= link_to "Leadership", root_path, class: "post-thumb-link" %>dd</div>
 </div>

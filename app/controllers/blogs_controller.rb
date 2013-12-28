@@ -4,7 +4,7 @@ class BlogsController < ApplicationController
 
   # GET /blogs.json
   def index
-    @title = "Joshua Anderson's Official Blog"
+    @title = "Blog"
     @blogs = Blog.all
 
     respond_to do |format|
@@ -16,7 +16,7 @@ class BlogsController < ApplicationController
   # GET /blogs/1
   # GET /blogs/1.json
   def show
-    @title = "Joshua Anderson's Official Blog"
+    @title = "Blog"
     @blog = Blog.find(params[:id])
 
     respond_to do |format|

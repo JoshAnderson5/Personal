@@ -1,7 +1,5 @@
 <%= render 'layouts/innerpage' %>
 
-<h1>Listing blogs</h1>
-
 <% @blogs.each do |blog| %>
 
   <div class="post-area">
@@ -9,9 +7,9 @@
     <div style="float:right; width:20%; margin-top: -10px; position: relative;"><%= blog.author %></div><br/>
     <%= blog.content %></br></br>
     <p>
-    <%= link_to 'Show', blog, :class => "btn btn-success btn-xs" %>
-    <%= link_to 'Edit', edit_blog_path(blog), :class => "btn btn-success btn-xs" %>
-    <%= link_to 'Destroy', blog, :class => "btn btn-success btn-xs",  method: :delete, data: { confirm: 'Are you sure?'} %>
+    <%= link_to 'Read More', blog, :class => "btn btn-success btn-xs" %>
+    <!--<%= link_to 'Edit', edit_blog_path(blog), :class => "btn btn-success btn-xs" %>
+    <%= link_to 'Destroy', blog, :class => "btn btn-success btn-xs",  method: :delete, data: { confirm: 'Are you sure?'} %>-->
     </p>
   </div>
 

@@ -3,7 +3,7 @@ class HomepageController < ApplicationController
   end
 
   def aboutme
-    @title = "Learn more about Joshua Anderson"
+    @title = "Learn more about Me"
   end
 
   def uvalue
@@ -11,11 +11,11 @@ class HomepageController < ApplicationController
   end
 
   def technologistgroup
-    @title = "The Technologist Group: Web Design & Consulting"
+    @title = "The Technologist Group"
   end
 
   def projects
-    @title = "View My Active Projects"
+    @title = "View My Rails Projects"
   end
 
   def contactme
