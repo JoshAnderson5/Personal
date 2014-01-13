@@ -15,7 +15,7 @@ class HomepageController < ApplicationController
   end
 
   def projects
-    @title = "View My Rails Projects"
+    @title = "View My Projects"
   end
 
   def contactme
