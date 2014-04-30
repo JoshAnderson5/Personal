@@ -6,7 +6,7 @@
 
 a {
 	color:white;
-	text-shadow: 0px 1px rgba(0, 0, 0, 0.34);
+	/*text-shadow: 0px 1px rgba(0, 0, 0, 0.34);*/
 }
 
 .top-green {
@@ -35,7 +35,7 @@ right: 0;
 }
 
 .front-bg {
-	background-image: url(joshbg4.jpg);
+	background-image: url(joshfull.jpg);
 	height: 680px;
     background-repeat: no-repeat; 
     z-index: -999;
@@ -46,13 +46,45 @@ background-size: cover;
             box-shadow: 0px 0px 8px 2px #000000;
 }
 
+.fullname {
+	font-size: 78pt;
+	color: white;
+	font-family: "Langdon", Arial;
+	font-weight: bolder;
+	text-align: center;
+	margin-top:420px;
+	width:100%;
+	text-shadow: 2px 2px #000000;
+}
+
+.email {
+	font-size: 16pt;
+color: #98c62c;
+font-family: Arial;
+font-weight: bold;
+text-align: center;
+margin-top: 50px;
+width: 100%;
+text-shadow: 2px 2px rgba(0, 0, 0, 0.23);
+}
+
+
 .masthead  {
 color: black !important;
 display: inline-block;
 margin: 12px 10px 9px 8px;
 padding: 10px 5px;
 text-decoration: none !important;
-float: right;
+width:15%;
+background: #333333;
+border-radius: 5px;
+}
+
+.masthead a:hover {
+	text-decoration: none !important;
+	color:#98c62c;
+	font-weight: bold;
+	background: none;
 }
 
 .post-thumb-biz {
