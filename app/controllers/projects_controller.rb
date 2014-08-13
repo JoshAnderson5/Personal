@@ -19,8 +19,8 @@ end
 def stgabriels
     @title = "St Gabriel's Hollis Church Website"
 end
-#def 99designs
-#    @title = "99 Designs Projects"
-#end
+def ninetyninedesigns
+    @title = "99 Designs Projects"
+end
 
 end
