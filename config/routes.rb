@@ -1,7 +1,6 @@
 Joshanderson::Application.routes.draw do
   resources :blogs
 
-
   get "homepage/index"
 
   root :to => 'homepage#index'
@@ -15,6 +14,21 @@ Joshanderson::Application.routes.draw do
   get "homepage/projects"
 
   get "homepage/contactme"
+
+
+  get "projects/project1"
+
+  get "projects/uvalue"
+  
+  get "projects/technologistgroup"
+  
+  get "projects/epitome"
+  
+  get "projects/stgabriels"
+
+  get "projects/norman"
+
+  get "projects/99designs"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

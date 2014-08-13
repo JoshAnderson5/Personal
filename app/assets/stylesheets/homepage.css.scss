@@ -35,7 +35,7 @@ right: 0;
 }
 
 .front-bg {
-	background-image: url(joshfull.jpg);
+	background-image: url(joshbg5.jpg);
 	height: 680px;
     background-repeat: no-repeat; 
     z-index: -999;
@@ -47,37 +47,67 @@ background-size: cover;
 }
 
 .fullname {
-	font-size: 78pt;
+	/*font-size: 78pt;
 	color: white;
-	font-family: "Langdon", Arial;
+	font-family: "Langdon",'Oswald',Arial, sans-serif;;
 	font-weight: bolder;
 	text-align: center;
 	margin-top:420px;
 	width:100%;
-	text-shadow: 2px 2px #000000;
+	text-shadow: 2px 2px #000000;*/
+
+	font-size: 60pt;
+color: #98c62c;
+font-family: "Langdon",'Oswald',Arial, sans-serif;
+font-weight: bolder;
+text-align: center;
+margin-left: 300px;
+margin-top: 220px;
+/* width: 100%; */
+text-shadow: 2px 2px #000000;
 }
 
 .email {
-	font-size: 16pt;
+	/*font-size: 16pt;
 color: #98c62c;
 font-family: Arial;
 font-weight: bold;
 text-align: center;
 margin-top: 50px;
 width: 100%;
+text-shadow: 2px 2px rgba(0, 0, 0, 0.23);*/
+
+font-size: 16pt;
+color: #252523;
+font-family: Arial;
+font-weight: bold;
+text-align: center;
+margin-top: 50px;
+margin-left: 290px;
+/* width: 100%; */
 text-shadow: 2px 2px rgba(0, 0, 0, 0.23);
 }
 
 
 .masthead  {
-color: black !important;
+/*color: black !important;
 display: inline-block;
 margin: 12px 10px 9px 8px;
 padding: 10px 5px;
 text-decoration: none !important;
 width:15%;
 background: #333333;
+border-radius: 5px;*/
+
+color: black !important;
+display: inline-block;
+margin: 12px 10px 9px 8px;
+padding: 14px 8px;
+text-decoration: none !important;
+width: 20%;
+background: #333333;
 border-radius: 5px;
+border: 1px solid;
 }
 
 .masthead a:hover {
