@@ -12,6 +12,19 @@
  *= require_tree .
  */
 
+.mc-field-group input {
+display: block;
+width: 100%;
+padding: 8px 0;
+text-indent: 2%;
+margin-left: -20px;
+}
+
+#mce-EMAIL {
+margin-left:-20px;
+}
+
+
 a:hover {
 }
 
